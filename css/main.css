@@ -11,3 +11,14 @@
     max-width: 1920px;
     margin:0 auto;
 }
+
+
+nav{
+    height: 80px;
+    border:1px solid blue;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
