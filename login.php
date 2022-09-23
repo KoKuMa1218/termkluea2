@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
             <input type="password" name="password_1">
         </div>
         <div class="input-group">
-            <button type="submit" name="log_user" class="btn">Register</button>
+            <button type="submit" name="log_user" class="btn">Login</button>
         </div>
         <p>Not member? <a href="register.php">Sign up</a></p>
     </form>
