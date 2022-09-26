@@ -179,6 +179,75 @@ button:hover{
     display: inline-block;
 }
 
+/* grid-game */
+
+.card{
+    border :1px solid red ;
+    padding-top: 15px;  
+    
+}
+.card h1 {
+    margin-left: 40px;
+}
+
+.card h5{
+    margin-left: 40px;
+}
+
+
+
+.text-center{
+    text-align: center!important;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+ul li a:hover {
+    color: #0d6efd;;
+}
+
+.col-md-2{
+    flex: 0 0 auto;
+}
+.col4{
+    flex:  0 0 auto;
+    width: 3.333333333%;
+}
+
+
+ul li img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    display: block;
+    
+    
+}
+
+.card-container ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 10px;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.card-container ul li{
+    display: block;
+}
+
+
+.load{
+    margin: 0 auto;
+  text-align: center;
+  padding:25px 20px;
+  
+}
+
+
+
 
 
 
