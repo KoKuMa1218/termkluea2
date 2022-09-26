@@ -15,18 +15,21 @@
 .container{
     /* max-width: 1920px; */
     margin:0 auto;
-    border :1px solid red ;
+    /* border :1px solid red ; */
 }
 
+.bi-controller{
+    color: white;
+}
 
 nav{
     height: 135px;
     display:  flex;  
     align-items: center;
-    color: white;
     background-color: #050224;
     
 }
+
 nav a{
     text-decoration:  none;
 }
@@ -48,7 +51,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 25px;
-    border:  1px solid red;
+    /* border:  1px solid red; */
     
     
 }
@@ -78,7 +81,7 @@ ul li i{
     background-image: url("../img/genshin-impact-banner.jpg") ;
     background-position: center center;
 	background-size: cover;
-    display:  flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     
@@ -88,10 +91,18 @@ ul li i{
 
 .game{
     border :1px solid red ;
-    padding-top: 15px;
-    
+    padding-top: 15px;  
     
 }
+.game h1 {
+    margin-left: 40px;
+}
+
+.game h5{
+    margin-left: 40px;
+}
+
+
 
 .text-center{
     text-align: center!important;
@@ -123,8 +134,6 @@ ul li img{
     
 }
 
-
-
 .grid-container ul{
     display: grid;
     grid-template-columns: auto auto auto auto auto ;
@@ -132,7 +141,42 @@ ul li img{
     justify-content: space-evenly;
     list-style: none;
     
-    
+}
+.grid-container ul li{
+    display: none;
+}
+
+
+.load-more{
+    margin: 0 auto;
+  text-align: center;
+  padding:25px 20px;
+  
+}
+button{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #050224;
+    color: #fff;
+}
+
+.grid-container ul li:nth-child(1),
+.grid-container ul li:nth-child(2),
+.grid-container ul li:nth-child(3),
+.grid-container ul li:nth-child(4),
+.grid-container ul li:nth-child(5),
+.grid-container ul li:nth-child(6),
+.grid-container ul li:nth-child(7),
+.grid-container ul li:nth-child(8),
+.grid-container ul li:nth-child(9),
+.grid-container ul li:nth-child(10){
+    display: inline-block;
 }
 
 

@@ -52,8 +52,41 @@
                 <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
                 <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
                 <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
+                <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
+                <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
+                <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
+                <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
+                <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png"><div class="product-title"><b>Tower of fantasy</b></div></a></li>
             </ul>
+
+            
         </div>
+    
+    </div>
+
+    <div class="load-more">
+       <button>SEE MORE</button>
+    </div>
+    <script>
+
+        let loadMoreBtn = document.querySelector('.load-more');
+        let currentItem = 10;
+        
+        loadMoreBtn.onclick = () =>{
+           let boxes = [...document.querySelectorAll('.grid-container ul li')];
+           for (var i = currentItem; i < currentItem + 5; i++){
+              boxes[i].style.display = 'inline-block';
+           }
+           currentItem += 10;
+        
+           if(currentItem >= boxes.length){
+              loadMoreBtn.style.display = 'none';
+           }
+        }
+        
+        </script>
+ 
+         
       
    </section>
     
