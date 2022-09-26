@@ -10,9 +10,12 @@
     
 }
 
+/* Header */
+
 .container{
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin:0 auto;
+    border :1px solid red ;
 }
 
 
@@ -44,7 +47,8 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 25px;
+    border:  1px solid red;
     
     
 }
@@ -67,7 +71,7 @@ ul li i{
     
 }
 
-
+/* Banner */
 .banner{
     
     height: 542px;
@@ -79,6 +83,61 @@ ul li i{
     align-items: center;
     
 }
+
+/* grid-game */
+
+.game{
+    border :1px solid red ;
+    padding-top: 15px;
+    
+    
+}
+
+.text-center{
+    text-align: center!important;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+ul li a:hover {
+    color: #0d6efd;;
+}
+
+.col-md-2{
+    flex: 0 0 auto;
+}
+.col4{
+    flex:  0 0 auto;
+    width: 3.333333333%;
+}
+
+
+ul li img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    display: block;
+    
+    
+}
+
+
+
+.grid-container ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 10px;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    
+}
+
+
+
+
 
 
 
