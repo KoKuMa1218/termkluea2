@@ -86,3 +86,42 @@ form {
     border: 1px solid #3c763d;
     margin-bottom: 20px;
 }
+
+.cont {
+    max-width: 65%;
+    background: white;
+    margin: auto;
+    display: block;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.cont2 {
+    max-width: 65%;
+    background: red;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.child{
+    text-align: center;
+    color: white;
+}
+.child2{
+    text-align: center;
+    color: greenyellow;
+}
+#servern{
+    width:150px;   
+   }
+
+   .center-block {
+    margin: auto;
+    display: block;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
