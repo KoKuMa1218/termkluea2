@@ -11,17 +11,17 @@
 
 <body>
     <div class="cont">
-        
-            <p>1 เลือกแพ็คเกจที่ต้องการเติม</p>
-            <tr>
-                <td><img src="img/30ta.png" width="200" height="150"></a></td>
-                <td><img src="img/150ta.png" width="200" height="150"></a></td>
-                <td><img src="img/450ta.png" width="200" height="150"></a></td>
-      
+
+        <p>1 เลือกแพ็คเกจที่ต้องการเติม</p>
+        <tr>
+            <td><img src="img/30ta.png" width="200" height="150"></a></td>
+            <td><img src="img/150ta.png" width="200" height="150"></a></td>
+            <td><img src="img/450ta.png" width="200" height="150"></a></td>
+
             <td><img src="img/900ta.png" width="200" height="150"></a></td>
             <td><img src="img/1600ta.png" width="200" height="150"></a></td>
             <td><img src="img/3000ta.png" width="200" height="150"></a></td>
-            </tr>
+        </tr>
 
 
     </div>
@@ -30,8 +30,8 @@
         <p>2 ขั้นตอนการทำรายการ</p>
         <div class="input-group">
             <label for="user_id">User ID</label>
-            <input type="text" name="user_id" style="font-size:10pt;height: 20px;width: 50px;">
-            <select name="servern" id="servern" style="height: 20px;">
+            <input type="text" name="user_id" style="font-size:10pt;height: 20px;width: 200px;">
+            <select name="servern" id="servern" style="height: 32px;width: 200px;">
                 <option value="scarlet">scarlet</option>
                 <option value="odyssey">odyssey</option>
                 <option value="gumigumi">gumigumi</option>
@@ -42,16 +42,16 @@
     </div>
     <br>
     <div class="cont">
-            <p>3 เลือกวิธีการชำระเงิน</p>
-            <tr>
-                <td><img src="img/truewallet.jpg " width="150" height="75"></td>
-                <td><img src="img/razergold.jpg" width="150" height="75"></td>
-                <td><img src="img/dtac.jpg" width="150" height="75"></td>
-                <br>
+        <p>3 เลือกวิธีการชำระเงิน</p>
+        <tr>
+            <td><img src="img/truewallet.jpg " width="150" height="75"></td>
+            <td><img src="img/razergold.jpg" width="150" height="75"></td>
+            <td><img src="img/dtac.jpg" width="150" height="75"></td>
+            <br>
             <td><img src="img/qrc.jpg" width="150" height="75"></td>
             <td><img src="img/crd.png" width="150" height="75"></td>
 
-            </tr>
+        </tr>
     </div>
     <br>
     <div class="cont2">
