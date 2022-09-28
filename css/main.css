@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
     
-    /* background-color: #9C74F3; */
+    
     
 }
 
@@ -20,9 +20,11 @@
 
 .bi-controller{
     color: white;
+    
 }
 
 nav{
+    
     height: 135px;
     display:  flex;  
     align-items: center;
@@ -92,7 +94,8 @@ ul li i{
 .game{
     border :1px solid red ;
     padding-top: 15px;  
-    
+    background-color: aquamarine;
+    padding-bottom: 15px;
 }
 .game h1 {
     margin-left: 40px;
@@ -108,11 +111,13 @@ ul li i{
     text-align: center!important;
 }
 ul li a {
+    
     text-decoration: none;
     color: #000;
+    
 }
 ul li a:hover {
-    color: #0d6efd;;
+    color: #0d6efd;
 }
 
 .col-md-2{
@@ -130,6 +135,7 @@ ul li img{
     height: 200px;
     border-radius: 20%;
     display: block;
+    box-shadow: 2px 2px 4px #000000;
     
     
 }
@@ -146,11 +152,13 @@ ul li img{
     display: none;
 }
 
+/* seemore */
 
 .load-more{
     margin: 0 auto;
   text-align: center;
-  padding:25px 20px;
+  padding:25px 25px;
+  background: #0d6efd;
   
 }
 button{
@@ -179,12 +187,12 @@ button:hover{
     display: inline-block;
 }
 
-/* grid-game */
+/* grid-card */
 
 .card{
     border :1px solid red ;
     padding-top: 15px;  
-    
+    padding-bottom: 15px;
 }
 .card h1 {
     margin-left: 40px;
@@ -244,6 +252,16 @@ ul li img{
   text-align: center;
   padding:25px 20px;
   
+}
+
+/* footer */
+
+.Footer{
+    padding-top: 10px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid red;
 }
 
 
