@@ -14,17 +14,13 @@
             <label for="qrc_pay">ระบุจำนวนเงิน</label>
             <input type="text" name="qrc_pay">
         </div>
-        <div class="cont2">
-            <div class="child2">
-                <p><a href="payment3.php" style="color: black;">ยืนยันจำนวนเงิน</p>
-            </div>
-        </div>
+        
         <br>
-        <img src="img/qrs.png " width="300"  height="400" class="center">
+        <img src="img/qrs.jpg " width="300"  height="400" class="center">
         <br>
-        <div class="cont2">
+        <div class="cont3">
             <div class="child2">
-                <p><a href="payment3.php" style="color: black;">ยืนยันการชำระเงิน</a></p>
+                <a href="payment3.php" style="color: black;">ยืนยันการชำระเงิน</a>
             </div>
         </div>
     </div>
