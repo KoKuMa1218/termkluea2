@@ -32,13 +32,41 @@
         </div>
     </header>
     <!-- Banner -->
-    <section class="banner">
-        <div class="container">
-            <div class="banner-slide">
+    <header class="intro">
+        <div class="intro-slideshow">
+            <img src="/img/genshin-banner.jpg">
+            <img src="/img/tof-banner.jpg">
+            <img src="/img/valorant_banner.webp">
 
-            </div>
         </div>
-    </section>
+        <!-- <div class="intro-header">
+                <h1>Coding Journey</h1>
+                <p>It's all about the journey</p>
+            </div> -->
+    </header>
+    <script>
+        const slideshowImages = document.querySelectorAll(".intro .intro-slideshow img");
+
+        const nextImageDelay = 5000;
+        let currentImageCounter = 0; // setting a variable to keep track of the current image (slide)
+
+        /* slideshowImages[currentImageCounter].style.display = "block"; */
+        slideshowImages[currentImageCounter].style.opacity = 1;
+
+        setInterval(nextImage, nextImageDelay);
+
+        function nextImage() {
+            /* slideshowImages[currentImageCounter].style.display = "none"; */
+            slideshowImages[currentImageCounter].style.opacity = 0;
+
+            currentImageCounter = (currentImageCounter + 1) % slideshowImages.length;
+
+            /* slideshowImages[currentImageCounter].style.display = "block"; */
+            slideshowImages[currentImageCounter].style.opacity = 1;
+        }
+    </script>
+
+
 
 
     <section class="grid-game">
@@ -46,6 +74,96 @@
             <h1>เติมเกมออนไลน์</h1>
             <h5>GAMEONLINE TOPUP</h5><br>
             <div class="grid-container">
+                <ul>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
+                            <div class="product-title"><br><b>Genshin impact</b></div>
+                        </a></li>
+                    <li><a href="valorant.html" class="col-4 col-md-2 text-center"><img src="img/valorant_logo.jpg">
+                            <div class="product-title"><br><b>valorant</b></div>
+                        </a></li>
+                    <li><a href="PUBG.html" class="col-4 col-md-2 text-center"><img src="img/PUBG_logo.png">
+                            <div class="product-title"><br><b>PUBG MOBILE</b></div>
+                        </a></li>
+                    <li><a href="rov.html" class="col-4 col-md-2 text-center"><img src="img/rov_logo.png">
+                            <div class="product-title"><br><b>ROV</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/diablo_logo.jpg">
+                            <div class="product-title"><br><b>Diablo Immortal</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img
+                                src="img/raknarok_tac2_logo.png">
+                            <div class="product-title"><br><b>Ragnarok Tactics 2</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/dragonraja_logo.png">
+                            <div class="product-title"><br><b>Dragon Raja</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
+                            <div class="product-title"><br><b>Tower of fantasy</b></div>
+                        </a></li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+        <div class="load-more">
+            <button>SEE MORE</button>
+        </div>
+        <script>
+
+            let loadMoreBtn = document.querySelector('.load-more');
+            let currentItem = 10;
+
+            loadMoreBtn.onclick = () => {
+                let boxes = [...document.querySelectorAll('.grid-container ul li')];
+                for (var i = currentItem; i < currentItem + 50; i++) {
+                    boxes[i].style.display = 'inline-block';
+                }
+                currentItem += 10;
+
+                if (currentItem >= boxes.length) {
+                    loadMoreBtn.style.display = 'none';
+                }
+            }
+
+        </script>
+
+    </section>
+
+    <section class="grid-card">
+        <div class="card">
+            <h1>เติมเงินออนไลน์</h1>
+            <h5>ONLINE TOPUP</h5><br>
+            <div class="card-container">
                 <ul>
                     <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
                             <div class="product-title"><br><b>Tower of fantasy</b></div>
@@ -77,95 +195,7 @@
                     <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
                             <div class="product-title"><br><b>Tower of fantasy</b></div>
                         </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
 
-
-                </ul>
-
-
-            </div>
-
-        </div>
-
-        <div class="load-more">
-            <button>SEE MORE</button>
-        </div>
-        <script>
-
-            let loadMoreBtn = document.querySelector('.load-more');
-            let currentItem = 10;
-
-            loadMoreBtn.onclick = () => {
-                let boxes = [...document.querySelectorAll('.grid-container ul li')];
-                for (var i = currentItem; i < currentItem + 7; i++) {
-                    boxes[i].style.display = 'inline-block';
-                }
-                currentItem += 10;
-
-                if (currentItem >= boxes.length) {
-                    loadMoreBtn.style.display = 'none';
-                }
-            }
-
-        </script>
-    </section>
-
-    <section class="grid-card">
-        <div class="card">
-            <h1>เติมgเงินออนไลน์</h1>
-            <h5>ONLINE TOPUP</h5><br>
-            <div class="card-container">
-                <ul>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOFlogo.png">
-                            <div class="product-title"><br><b>Tower of fantasy</b></div>
-                        </a></li>
 
                 </ul>
 

@@ -1,167 +1,211 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto',sans-serif;
-    
-    
-    
+    font-family: 'Roboto', sans-serif;
 }
+
 
 /* Header */
 
-.container{
+.container {
     /* max-width: 1920px; */
-    margin:0 auto;
+    margin: 0 auto;
     /* border :1px solid red ; */
 }
 
-.bi-controller{
+.bi-controller {
     color: white;
-    
+
 }
 
-nav{
-    
+nav {
+
     height: 135px;
-    display:  flex;  
+    display: flex;
     align-items: center;
     background-color: #050224;
-    
+
 }
 
-nav a{
-    text-decoration:  none;
+nav a {
+    text-decoration: none;
 }
 
 nav b {
     margin-left: 20px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     width: 520px;
     justify-content: space-between;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: 40px;
-    
+
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
     /* border:  1px solid red; */
-    
-    
+
+
 }
 
 
-ul li i{
+ul li i {
     margin: 10px;
 }
 
 
-.logo h1{
+.logo h1 {
     color: #fff;
     text-align: center;
     font-size: 50px;
 }
 
-.logo h4{
+.logo h4 {
     color: #fff;
-    font-size: 20px ;
-    
+    font-size: 20px;
+
 }
 
 /* Banner */
-.banner{
-    
-    height: 542px;
-    background-image: url("../img/genshin-impact-banner.jpg") ;
-    background-position: center center;
-	background-size: cover;
+.intro {
+    height: 95vh;
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    letter-spacing: 0.1rem;
     
-}
+  }
+  .intro-slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
+    height: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */ 
+    object-fit: cover;
+    z-index:-1;
+    /* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 0.75s ease-in-out;
+  }
+  .intro-slideshow img:first-child {
+    display: block;
+    opacity: 1;
+  }
+  .intro .intro-header {
+    border-radius: 0.5rem;
+    padding: 2rem 2.5rem;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .intro h1 {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+  }
+  .intro p {
+    font-size: 1.75rem;
+  }
+  
+  @media (max-width: 700px) {
+    html { font-size: 12px; }
+    .intro-header { padding: 1.5rem 2rem; }
+    .intro h1 { font-size: 2.5rem; }
+    .intro p { font-size: 1.25rem; }
+  }
 
 /* grid-game */
 
-.game{
-    border :1px solid red ;
-    padding-top: 15px;  
-    background-color: aquamarine;
+.game {
+    /* border: 1px solid red; */
+    padding-top: 15px;
+    /* background-color: #2e2e2e; */
     padding-bottom: 15px;
+
 }
+
 .game h1 {
     margin-left: 40px;
+    color: #000;
 }
 
-.game h5{
+.game h5 {
     margin-left: 40px;
+    color: #000;
 }
 
 
 
-.text-center{
-    text-align: center!important;
+.text-center {
+    text-align: center !important;
 }
+
 ul li a {
-    
     text-decoration: none;
     color: #000;
-    
-}
-ul li a:hover {
-    color: #0d6efd;
 }
 
-.col-md-2{
+ul li a:hover {
+    color: #0d6efd;
+
+}
+
+
+
+.col-md-2 {
     flex: 0 0 auto;
 }
-.col4{
-    flex:  0 0 auto;
+
+.col4 {
+    flex: 0 0 auto;
     width: 3.333333333%;
 }
 
 
-ul li img{
+ul li img {
 
     width: 200px;
     height: 200px;
     border-radius: 20%;
     display: block;
     box-shadow: 2px 2px 4px #000000;
-    
-    
+
+
 }
 
-.grid-container ul{
+.grid-container ul {
     display: grid;
-    grid-template-columns: auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto;
     gap: 10px;
     justify-content: space-evenly;
     list-style: none;
-    
+
 }
-.grid-container ul li{
+
+.grid-container ul li {
     display: none;
 }
 
 /* seemore */
 
-.load-more{
+.load-more {
     margin: 0 auto;
-  text-align: center;
-  padding:25px 25px;
-  background: #0d6efd;
-  
+    text-align: center;
+    padding: 25px 25px;
+    background: #0d6efd;
+
 }
-button{
+
+button {
     border: none;
     border-radius: 10px;
     width: 150px;
@@ -169,7 +213,8 @@ button{
     font-size: 20px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: #050224;
     color: #fff;
 }
@@ -183,92 +228,84 @@ button:hover{
 .grid-container ul li:nth-child(7),
 .grid-container ul li:nth-child(8),
 .grid-container ul li:nth-child(9),
-.grid-container ul li:nth-child(10){
+.grid-container ul li:nth-child(10) {
     display: inline-block;
 }
 
 /* grid-card */
 
-.card{
-    border :1px solid red ;
-    padding-top: 15px;  
+.card {
+    border: 1px solid red;
+    padding-top: 15px;
     padding-bottom: 15px;
+    /* background-color: #2e2e2e; */
 }
+
 .card h1 {
     margin-left: 40px;
+    color: #fff;
 }
 
-.card h5{
+.card h5 {
     margin-left: 40px;
+    color: #fff;
 }
 
 
 
-.text-center{
-    text-align: center!important;
-}
-ul li a {
-    text-decoration: none;
-    color: #000;
-}
-ul li a:hover {
-    color: #0d6efd;;
+.text-center {
+    text-align: center !important;
 }
 
-.col-md-2{
+
+
+.col-md-2 {
     flex: 0 0 auto;
 }
-.col4{
-    flex:  0 0 auto;
+
+.col4 {
+    flex: 0 0 auto;
     width: 3.333333333%;
 }
 
 
-ul li img{
+ul li img {
 
     width: 200px;
     height: 200px;
     border-radius: 20%;
     display: block;
-    
-    
+
+
 }
 
-.card-container ul{
+.card-container ul {
     display: grid;
-    grid-template-columns: auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto;
     gap: 10px;
     justify-content: space-evenly;
     list-style: none;
-    
+
 }
-.card-container ul li{
+
+.card-container ul li {
     display: block;
 }
 
 
-.load{
+.load {
     margin: 0 auto;
-  text-align: center;
-  padding:25px 20px;
-  
+    text-align: center;
+    padding: 25px 20px;
+
 }
 
 /* footer */
 
-.Footer{
+.Footer {
     padding-top: 10px;
     height: 150px;
     text-align: center;
     align-items: center;
     border: 1px solid red;
 }
-
-
-
-
-
-
-
-
-
