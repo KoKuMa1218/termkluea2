@@ -129,13 +129,33 @@
                         </a></li>
 
                 </ul>
-
+                <div class="load-more">
+                    <button>SEE MORE</button>
+                </div>
+                <script>
+        
+                    let loadMoreBtn = document.querySelector('.load-more');
+                    let currentItem = 10;
+        
+                    loadMoreBtn.onclick = () => {
+                        let boxes = [...document.querySelectorAll('.grid-container ul li')];
+                        for (var i = currentItem; i < currentItem + 7; i++) {
+                            boxes[i].style.display = 'inline-block';
+                        }
+                        currentItem += 10;
+        
+                        if (currentItem >= boxes.length) {
+                            loadMoreBtn.style.display = 'none';
+                        }
+                    }
+        
+                </script>
 
             </div>
 
         </div>
 
-        <div class="load-more">
+        <!-- <div class="load-more">
             <button>SEE MORE</button>
         </div>
         <script>
@@ -145,7 +165,7 @@
 
             loadMoreBtn.onclick = () => {
                 let boxes = [...document.querySelectorAll('.grid-container ul li')];
-                for (var i = currentItem; i < currentItem + 50; i++) {
+                for (var i = currentItem; i < currentItem + 7; i++) {
                     boxes[i].style.display = 'inline-block';
                 }
                 currentItem += 10;
@@ -155,7 +175,7 @@
                 }
             }
 
-        </script>
+        </script> -->
 
     </section>
 

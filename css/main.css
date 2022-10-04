@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 
@@ -18,7 +19,6 @@
 
 .bi-controller {
     color: white;
-
 }
 
 nav {
@@ -45,7 +45,6 @@ nav ul {
     justify-content: space-between;
     margin-left: auto;
     margin-right: 40px;
-
 }
 
 nav ul li a {
@@ -126,21 +125,19 @@ ul li i {
 /* grid-game */
 
 .game {
-    /* border: 1px solid red; */
     padding-top: 15px;
-    /* background-color: #2e2e2e; */
     padding-bottom: 15px;
-
+    background-color: #111;
 }
 
 .game h1 {
     margin-left: 40px;
-    color: #000;
+    color: #fff;
 }
 
 .game h5 {
     margin-left: 40px;
-    color: #000;
+    color: #fff;
 }
 
 
@@ -151,7 +148,7 @@ ul li i {
 
 ul li a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 ul li a:hover {
@@ -177,7 +174,18 @@ ul li img {
     height: 200px;
     border-radius: 20%;
     display: block;
-    box-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #fff;
+
+
+}
+
+ul li img:hover {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    display: block;
+    box-shadow: 2px 2px 4px purple;
 
 
 }
@@ -201,8 +209,8 @@ ul li img {
     margin: 0 auto;
     text-align: center;
     padding: 25px 25px;
-    background: #0d6efd;
-
+    /* background: #0d6efd; */
+    
 }
 
 button {
@@ -235,10 +243,11 @@ button:hover {
 /* grid-card */
 
 .card {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 15px;
     padding-bottom: 15px;
-    /* background-color: #2e2e2e; */
+    background-color: #222;
+    
 }
 
 .card h1 {
@@ -308,4 +317,7 @@ ul li img {
     text-align: center;
     align-items: center;
     border: 1px solid red;
+    background-color: #050224;
+    color: #fff;
+    
 }
