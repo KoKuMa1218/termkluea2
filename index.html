@@ -39,10 +39,7 @@
             <img src="/img/valorant_banner.webp">
 
         </div>
-        <!-- <div class="intro-header">
-                <h1>Coding Journey</h1>
-                <p>It's all about the journey</p>
-            </div> -->
+        
     </header>
     <script>
         const slideshowImages = document.querySelectorAll(".intro .intro-slideshow img");
@@ -50,13 +47,13 @@
         const nextImageDelay = 5000;
         let currentImageCounter = 0; // setting a variable to keep track of the current image (slide)
 
-        /* slideshowImages[currentImageCounter].style.display = "block"; */
+        
         slideshowImages[currentImageCounter].style.opacity = 1;
 
         setInterval(nextImage, nextImageDelay);
 
         function nextImage() {
-            /* slideshowImages[currentImageCounter].style.display = "none"; */
+            
             slideshowImages[currentImageCounter].style.opacity = 0;
 
             currentImageCounter = (currentImageCounter + 1) % slideshowImages.length;
