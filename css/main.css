@@ -74,12 +74,12 @@ ul li i {
 
 /* Banner */
 .intro {
-    height: 95vh;
+    height: 85vh;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: center ;
+    
     letter-spacing: 0.1rem;
     
   }
@@ -207,7 +207,7 @@ ul li img:hover {
     margin: 0 auto;
     text-align: center;
     padding: 25px 25px;
-    /* background: #0d6efd; */
+    
     
 }
 
@@ -218,11 +218,14 @@ button {
     padding: 6px;
     font-size: 20px;
     cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 3px 3px 10px #fff;
 }
 
 button:hover {
-    background-color: #050224;
+    background-color: #0d6efd;
     color: #fff;
+    box-shadow: 3px 3px 10px #0d6efd;
 }
 
 .grid-container ul li:nth-child(1),
