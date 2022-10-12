@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TermKluea2</title>
+    <title>TermKluea</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS only -->
 
@@ -25,9 +25,9 @@
                     </a>
                 </div>
                 <ul>
-                    <li><a href="index.html"><i class="bi bi-house-fill"></i>หน้าหลัก</a></li>
-                    <li><a href="login.html"><i class="bi bi-lock-fill"></i>เข้าสู่ระบบ</a></li>
-                    <li><a href="register.html"><i class="bi bi-person-plus-fill"></i>สมัครสมาชิก</a></li>
+                    <li><a href="index.php"><i class="bi bi-house-fill"></i>หน้าหลัก</a></li>
+                    <li><a href="login.php"><i class="bi bi-lock-fill"></i>เข้าสู่ระบบ</a></li>
+                    <li><a href="register.php"><i class="bi bi-person-plus-fill"></i>สมัครสมาชิก</a></li>
                 </ul>
             </nav>
         </div>
@@ -72,7 +72,7 @@
             <h5>GAMEONLINE TOPUP</h5><br>
             <div class="grid-container">
                 <ul>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
+                    <li><a href="TOFpayment1.php" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
                             <div class="product-title"><br><b>Tower of Fantasy</b></div>
                         </a></li>
                     <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
