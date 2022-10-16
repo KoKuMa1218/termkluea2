@@ -48,7 +48,7 @@
             <label for="floatingPassword">Confirm Password</label>
         </div>
         <button type="submit mb-3" class="btn btn-primary" name="reg_user">Sign in</button>
-        <p>Already a member? <a href="login.php">Sign in</a></p>
+        <p>สมัครสมาชิกเรียบร้อยแล้ว <a href="login.php">เข้าสู่ระบบ</a></p>
 
        
     </form>
