@@ -28,7 +28,7 @@ if (isset($_GET['logout'])) {
 
 <body>
     <header>
-        <div class="container">
+        <div class="contain">
             <nav><b></b>
                 <!-- <b class="bi bi-dpad-fill" style="font-size:80px;color: white;"></b> -->
                 <div class="logo"><a href="index.html">

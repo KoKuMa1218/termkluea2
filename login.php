@@ -15,29 +15,15 @@ include('server.php');
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="custom.css">
-    <style>
-      #intro {
-        background-image: url(img/background-gradient.jpg);
-        height: 107.8vh;
-      }
-
-      /* Height for devices larger than 576px */
-      @media (min-width: 992px) {
-        #intro {
-          margin-top: -58.59px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fix.css">
 </head>
 
 
-<body>   
-<div id="intro" class="bg-image shadow-2-strong">
+<body class="intros">   
     <div class="position-absolute top-50 start-50 translate-middle">        
-        <div class="container border border-4 border-primary rounded-4 bg-transparent" style="width:30rem;">
-            <div class="header text-center position-absolute top-0 start-50 translate-middle border border-4 border-primary bg-dark text-white rounded-4" style="width:7rem;">
+        <div class="container border border-4 border-primary rounded-4 bg-blur">
+            <div class="header text-center position-absolute top-0 start-50 translate-middle border border-4 border-primary bg-darkblue text-white rounded-4" style="width:10rem;">
                 <h2>Login</h2>
             </div>
             <form action="login_db.php" method="post">
@@ -52,7 +38,7 @@ include('server.php');
                     </div>
                 <?php endif ?>
                 
-                    <div><i class="bi bi-person-circle row justify-content-center mt-5 mb-4 "style="font-size:5rem;color:gray;"></i>
+                    <div><i class="bi bi-person-circle row justify-content-center mt-5 mb-4 text-white"style="font-size:5rem;"></i>
                     </div>
 
                 <div class="form-floating mb-3">
@@ -69,7 +55,7 @@ include('server.php');
                 
     </form>
     </div>
-</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     
 </body>

@@ -1,5 +1,0 @@
-.bg-transparent{
-    --bs-bg-opacity:1;
-    background-color: beige;
-    backdrop-filter: blur(1px);
-}

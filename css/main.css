@@ -13,19 +13,20 @@
 
 .container {
     margin: 0 auto;
+    
 }
 
 
-nav {
+/* nav {
 
     height: 100px;
     display: flex;
     align-items: center;
     background-color: #050224;
 
-}
+} */
 
-nav a {
+/* nav a {
     text-decoration: none;
 }
 
@@ -46,17 +47,17 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 25px;
-    /* border:  1px solid red; */
+    
 
 
 }
 .bi {
     font-size: 30px;
     
-}
+} */
 
 
-ul li i {
+/* ul li i {
     margin: 10px;
 }
 
@@ -72,7 +73,7 @@ ul li i {
     color: #fff;
     font-size: 20px;
 
-}
+} */
 
 /* Banner */
 .intro {
@@ -324,4 +325,6 @@ ul li img {
     color: #fff;
     
 }
+
+
 

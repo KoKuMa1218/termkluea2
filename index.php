@@ -7,31 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TermKluea</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     <!-- CSS only -->
-
-
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav><b></b>
-                <!-- <b class="bi bi-dpad-fill" style="font-size:80px;color: white;"></b> -->
-                <div class="logo"><a href="index.html">
-                        <h1>เติมเกลือ<br>
-                            <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
-                        </h1>
-                    </a>
-                </div>
-                <ul>
-                    <li><a href="index.php"><i class="bi bi-house-fill"></i>หน้าหลัก</a></li>
-                    <li><a href="login.php"><i class="bi bi-lock-fill"></i>เข้าสู่ระบบ</a></li>
-                    <li><a href="register.php"><i class="bi bi-person-plus-fill"></i>สมัครสมาชิก</a></li>
-                </ul>
-            </nav>
+    <!-- <header> -->
+
+    <!-- <nav class="navbar navbar-expand-lg border border-danger text-center" style="background-color: #050224;">
+        <div class="container-fluid">
+            <div class="logo"><a href="index.html">
+                    <h1>เติมเกลือ<br>
+                        <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
+                    </h1>
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.php"><i class="bi bi-house-fill"></i>หน้าหลัก</a></li>
+                <li><a href="login.php"><i class="bi bi-lock-fill"></i>เข้าสู่ระบบ</a></li>
+                <li><a href="register.php"><i class="bi bi-person-plus-fill"></i>สมัครสมาชิก</a></li>
+            </ul>
         </div>
-    </header>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #050224;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.php">
+                <h1>เติมเกลือ<br>
+                    <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- </header> -->
 
     <!-- Banner -->
     <div class="intro">
@@ -66,6 +89,8 @@
 
 
 
+
+
     <section class="grid-game">
         <div class="game">
             <h1>เติมเกมออนไลน์</h1>
@@ -78,8 +103,7 @@
                     <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
                             <div class="product-title"><br><b>Genshin Impact</b></div>
                         </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img
-                                src="img/honkaiimpact3_logo.jpg">
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/honkaiimpact3_logo.jpg">
                             <div class="product-title"><br><b>Honkai Impact 3</b></div>
                         </a></li>
                     <li><a href="valorant.html" class="col-4 col-md-2 text-center"><img src="img/valorant_logo.jpg">
@@ -94,8 +118,7 @@
                     <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/diablo_logo.jpg">
                             <div class="product-title"><br><b>Diablo Immortal</b></div>
                         </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img
-                                src="img/raknarok_tac2_logo.png">
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/raknarok_tac2_logo.png">
                             <div class="product-title"><br><b>Ragnarok Tactics 2</b></div>
                         </a></li>
                     <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/dragonraja_logo.png">
@@ -104,8 +127,7 @@
                     <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/freefire_logo.png">
                             <div class="product-title"><br><b>Free Fire</b></div>
                         </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img
-                                src="img/ApexLegendMobile_logo.jpg">
+                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/ApexLegendMobile_logo.jpg">
                             <div class="product-title"><br><b>Apex Legend Mobile</b></div>
                         </a></li>
                     <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lol_logo.png">
@@ -128,7 +150,6 @@
                     <button>SEE MORE</button>
                 </div>
                 <script>
-
                     let loadMoreBtn = document.querySelector('.load-more');
                     let currentItem = 10;
 
@@ -143,7 +164,6 @@
                             loadMoreBtn.style.display = 'none';
                         }
                     }
-
                 </script>
 
             </div>
@@ -213,7 +233,7 @@
         </div>
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 </html>
