@@ -15,39 +15,22 @@
 </head>
 
 <body>
-    <!-- <header> -->
-
-    <!-- <nav class="navbar navbar-expand-lg border border-danger text-center" style="background-color: #050224;">
-        <div class="container-fluid">
-            <div class="logo"><a href="index.html">
-                    <h1>เติมเกลือ<br>
-                        <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
-                    </h1>
-                </a>
-            </div>
-            <ul>
-                <li><a href="index.php"><i class="bi bi-house-fill"></i>หน้าหลัก</a></li>
-                <li><a href="login.php"><i class="bi bi-lock-fill"></i>เข้าสู่ระบบ</a></li>
-                <li><a href="register.php"><i class="bi bi-person-plus-fill"></i>สมัครสมาชิก</a></li>
-            </ul>
-        </div>
-    </nav> -->
     <nav class="navbar navbar-expand-lg" style="background-color: #050224;">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="index.php">
-                <h1>เติมเกลือ<br>
-                    <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
+            <a class="navbar-brand text-white text-center px-3" href="index.php">
+                <h1>เติมเกลือ<h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
                 </h1>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled">Disabled</a>
+            <div class="row">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-white" style="font-size:2rem" aria-current="page" href="index.php">หน้าหลัก</a>
+                        <a class="nav-link active text-white" style="font-size:2rem" href="login.php">เข้าสู่ระบบ</a>
+                        <a class="nav-link active text-white" style="font-size:2rem" href="register.php">สมัครสมาชิก</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,6 +47,7 @@
             <img src="img/valorant_banner.jpg" alt="3">
         </div>
     </div>
+
     <script>
         const slideshowImages = document.querySelectorAll(".intro .intro-slideshow img");
 
@@ -87,14 +71,11 @@
     </script>
 
 
-
-
-
-
     <section class="grid-game">
         <div class="game">
             <h1>เติมเกมออนไลน์</h1>
             <h5>GAMEONLINE TOPUP</h5><br>
+            <div class="container">
             <div class="grid-container">
                 <ul>
                     <li><a href="TOFpayment1.php" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
@@ -142,10 +123,9 @@
                     <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lolwildrift_logo.png">
                             <div class="product-title"><br><b>League of Legends Wildrift</b></div>
                         </a></li>
-
-
-
                 </ul>
+
+
                 <div class="load-more">
                     <button>SEE MORE</button>
                 </div>
@@ -167,30 +147,10 @@
                 </script>
 
             </div>
-
+            </div>
         </div>
 
-        <!-- <div class="load-more">
-            <button>SEE MORE</button>
-        </div>
-        <script>
-
-            let loadMoreBtn = document.querySelector('.load-more');
-            let currentItem = 10;
-
-            loadMoreBtn.onclick = () => {
-                let boxes = [...document.querySelectorAll('.grid-container ul li')];
-                for (var i = currentItem; i < currentItem + 7; i++) {
-                    boxes[i].style.display = 'inline-block';
-                }
-                currentItem += 10;
-
-                if (currentItem >= boxes.length) {
-                    loadMoreBtn.style.display = 'none';
-                }
-            }
-
-        </script> -->
+        
 
     </section>
 
@@ -198,21 +158,21 @@
         <div class="card">
             <h1>เติมเงินอื่นๆ</h1>
             <h5>OTHER TOPUP</h5><br>
-            <div class="card-container">
+            <div class="grid-container">
                 <ul>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/garena_card.png">
+                    <li><a href="TOFtopup.html" class="text-center"><img src="img/garena_card.png">
                             <div class="product-title"><br><b>บัตร Garena</b></div>
                         </a></li>
-                    <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/razer_card.png">
+                    <li><a href="Genshintopup.html" class="text-center"><img src="img/razer_card.png">
                             <div class="product-title"><br><b>บัตร Razer Gold</b></div>
                         </a></li>
-                    <li><a href="valorant.html" class="col-4 col-md-2 text-center"><img src="img/steam_card.png">
+                    <li><a href="valorant.html" class="text-center"><img src="img/steam_card.png">
                             <div class="product-title"><br><b>บัตร Steam Wallet</b></div>
                         </a></li>
-                    <li><a href="PUBG.html" class="col-4 col-md-2 text-center"><img src="img/true_card.png">
+                    <li><a href="PUBG.html" class="text-center"><img src="img/true_card.png">
                             <div class="product-title"><br><b>บัตรเติมเงิน True Money</b></div>
                         </a></li>
-                    <li><a href="rov.html" class="col-4 col-md-2 text-center"><img src="img/battle_card.png">
+                    <li><a href="rov.html" class="text-center"><img src="img/battle_card.png">
                             <div class="product-title"><br><b>บัตรเติมเงิน BATTLENET</b></div>
                         </a></li>
                 </ul>
@@ -226,7 +186,6 @@
     </section>
 
 
-
     <section class="Footer">
         <div class="footer">
             <h1>Footer</h1>
@@ -234,6 +193,7 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

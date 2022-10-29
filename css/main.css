@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
 
@@ -13,7 +13,7 @@
 
 .container {
     margin: 0 auto;
-    
+
 }
 
 
@@ -81,47 +81,65 @@ nav ul li a {
     position: sticky;
     display: flex;
     justify-content: center;
-    align-items: center ;
-    
+    align-items: center;
     letter-spacing: 0.1rem;
-    
-  }
-  .intro-slideshow img {
+
+}
+
+.intro-slideshow img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
-    height: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */ 
+    width: 100%;
+    /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
+    height: 100%;
+    /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */
     object-fit: cover;
-    z-index:-1;
-    /* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
+    z-index: -1;
+    /* filter: brightness(50%); */
+    /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
     /* display: none; */
     opacity: 0;
     transition: opacity 0.75s ease-in-out;
-  }
-  .intro-slideshow img:first-child {
+}
+
+.intro-slideshow img:first-child {
     display: block;
     opacity: 1;
-  }
-  .intro .intro-header {
+}
+
+.intro .intro-header {
     border-radius: 0.5rem;
     padding: 2rem 2.5rem;
-    background-color: rgba(0,0,0,0.5);
-  }
-  .intro h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.intro h1 {
     font-size: 4rem;
     margin-bottom: 0.75rem;
-  }
-  .intro p {
+}
+
+.intro p {
     font-size: 1.75rem;
-  }
-  
-  @media (max-width: 700px) {
-    html { font-size: 12px; }
-    .intro-header { padding: 1.5rem 2rem; }
-    .intro h1 { font-size: 2.5rem; }
-    .intro p { font-size: 1.25rem; }
-  }
+}
+
+@media (max-width: 700px) {
+    html {
+        font-size: 12px;
+    }
+
+    .intro-header {
+        padding: 1.5rem 2rem;
+    }
+
+    .intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro p {
+        font-size: 1.25rem;
+    }
+}
 
 /* grid-game */
 
@@ -144,7 +162,7 @@ nav ul li a {
 
 
 .text-center {
-    text-align: center !important;
+    text-align: start !important;
 }
 
 ul li a {
@@ -156,9 +174,6 @@ ul li a:hover {
     color: #0d6efd;
 
 }
-
-
-
 .col-md-2 {
     flex: 0 0 auto;
 }
@@ -191,18 +206,28 @@ ul li img:hover {
 
 }
 
-.grid-container ul {
+.grid-container ul  {
+    margin-bottom: 3rem;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: repeat(5,1fr);
     gap: 10px;
-    justify-content: space-evenly;
     list-style: none;
-
+    text-align: center;
 }
+
+@media screen and (max-width:960px) {
+    .grid-container ul  {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 
 .grid-container ul li {
     display: none;
 }
+
+
+
 
 /* seemore */
 
@@ -210,8 +235,8 @@ ul li img:hover {
     margin: 0 auto;
     text-align: center;
     padding: 25px 25px;
-    
-    
+
+
 }
 
 button {
@@ -251,7 +276,7 @@ button:hover {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #222;
-    
+
 }
 
 .card h1 {
@@ -292,25 +317,13 @@ ul li img {
 
 }
 
-.card-container ul {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 10px;
-    justify-content: space-evenly;
-    list-style: none;
 
-}
-
-.card-container ul li {
-    display: block;
-}
 
 
 .load {
     margin: 0 auto;
     text-align: center;
     padding: 25px 20px;
-
 }
 
 /* footer */
@@ -323,8 +336,4 @@ ul li img {
     border: 1px solid red;
     background-color: #050224;
     color: #fff;
-    
 }
-
-
-

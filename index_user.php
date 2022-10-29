@@ -23,30 +23,36 @@ if (isset($_GET['logout'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TermKluea</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
-        <div class="contain">
-            <nav><b></b>
-                <!-- <b class="bi bi-dpad-fill" style="font-size:80px;color: white;"></b> -->
-                <div class="logo"><a href="index.html">
-                        <h1>เติมเกลือ<br>
-                            <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
-                        </h1>
-                    </a>
-                </div>
-                <ul>
-                    <li><a href="index_user.php"><i class="bi bi-house-fill"></i>หน้าหลัก</a></li>
+    <nav class="navbar navbar-expand-lg" style="background-color: #050224;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white text-center px-3" href="index.php">
+                <h1>เติมเกลือ<br>
+                    <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="row">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white"style="font-size:2rem" aria-current="page" href="index_user.php">หน้าหลัก</a>
                     <a><?php if (isset($_SESSION['username'])) : ?></a>
-                        <li><a style="color: white;">คุณ <?php echo $_SESSION['username']; ?></a><li>
-                        <a href="index.php?logout='1'" style="color: red;">Logout</a>
-                    <?php endif ?>
-                </ul>
-            </nav>
+                        <a class="nav-link active text-white" style="font-size:2rem;">คุณ <?php echo $_SESSION['username']; ?></a>
+                        <a class="nav-link active " href="index.php?logout='1'" style="color: red;font-size:2rem;">Logout</a>
+                    <?php endif ?>                   
+                </div>
+            </div>
+            </div>
         </div>
-    </header>
+    </nav>
 
     <!-- Banner -->
     <div class="intro">
