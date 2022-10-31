@@ -239,8 +239,6 @@ ul li img:hover {
     margin: 0 auto;
     text-align: center;
     padding: 25px 25px;
-
-
 }
 
 button {
@@ -275,12 +273,11 @@ button:hover {
 
 /* grid-card */
 
-.card {
-    /* border: 1px solid red; */
+/* .card {
+    
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #222;
-
 }
 
 .card h1 {
@@ -311,25 +308,18 @@ ul li img {
     display: block;
 
 
-}
+} */
 
 
 
 
-.load {
-    margin: 0 auto;
-    text-align: center;
-    padding: 25px 20px;
-}
 
 /* footer */
-
 .Footer {
     padding-top: 10px;
     height: 150px;
     text-align: center;
     align-items: center;
-    border: 1px solid red;
     background-color: #050224;
     color: #fff;
 }

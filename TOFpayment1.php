@@ -8,12 +8,12 @@
     <title>TOFpayment</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/topup.css">
 </head>
 
-<body>
+<body  style="background-color:#222;">
     <form action="TOFpayment2.php" method="get">
-        <div class="container mt-3 mb-3" style="border: 1px solid black;border-radius: 10px;width:50%;">
-
+        <div class="container mt-3 mb-3 border border-primary rounded-4 text-white pt-3" style="width:50%;">
             <p>1 เลือกแพ็คเกจที่ต้องการเติม</p>
             <div class="col mt-3 mb-3" align="center">
                 <tr>
@@ -48,12 +48,12 @@
                     </label>
 
                 </tr>
-            </div>
+          
         </div>
-        <div class="container" style="border: 1px solid black;border-radius: 10px;width:50%;">
-            <p>2 ขั้นตอนการทำรายการ</p>
-            <div class="row ">
-
+</div>
+        <div class="container border border-primary rounded-4 pt-3" style="width:50%;" >
+            <p class="text-white">2 ขั้นตอนการทำรายการ</p>
+            <div class="row pb-3">
                 <div class="row g-2">
                     <div class="col-md">
                         <div class="form-floating">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="com text-center">
+            <div class="com text-center text-white pb-2">
                 <a>โปรดระวัง |</a> <a style="color: red;">*หากใส่ UID ผิดไม่สามารถขอคืนเงินได้*</a>
             </div>
         </div>

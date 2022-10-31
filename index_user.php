@@ -87,140 +87,121 @@ if (isset($_GET['logout'])) {
 
 
 
-    <section class="grid-game">
+<section class="grid-game">
         <div class="game">
             <h1>เติมเกมออนไลน์</h1>
             <h5>GAMEONLINE TOPUP</h5><br>
-            <div class="grid-container">
-                <ul>
-                    <li><a href="TOFpayment1.php" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
-                            <div class="product-title"><br><b>Tower of Fantasy</b></div>
-                        </a></li>
-                    <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
-                            <div class="product-title"><br><b>Genshin Impact</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/honkaiimpact3_logo.jpg">
-                            <div class="product-title"><br><b>Honkai Impact 3</b></div>
-                        </a></li>
-                    <li><a href="valorant.html" class="col-4 col-md-2 text-center"><img src="img/valorant_logo.jpg">
-                            <div class="product-title"><br><b>valorant</b></div>
-                        </a></li>
-                    <li><a href="PUBG.html" class="col-4 col-md-2 text-center"><img src="img/PUBG_logo.png">
-                            <div class="product-title"><br><b>PUBG MOBILE</b></div>
-                        </a></li>
-                    <li><a href="rov.html" class="col-4 col-md-2 text-center"><img src="img/rov_logo.png">
-                            <div class="product-title"><br><b>ROV</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/diablo_logo.jpg">
-                            <div class="product-title"><br><b>Diablo Immortal</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/raknarok_tac2_logo.png">
-                            <div class="product-title"><br><b>Ragnarok Tactics 2</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/dragonraja_logo.png">
-                            <div class="product-title"><br><b>Dragon Raja</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/freefire_logo.png">
-                            <div class="product-title"><br><b>Free Fire</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/ApexLegendMobile_logo.jpg">
-                            <div class="product-title"><br><b>Apex Legend Mobile</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lol_logo.png">
-                            <div class="product-title"><br><b>League of Legends</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lor_logo.jpg">
-                            <div class="product-title"><br><b>League of Runeterra</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/onmyojiarena_logo.jpg">
-                            <div class="product-title"><br><b>Onmyoji Arena</b></div>
-                        </a></li>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lolwildrift_logo.png">
-                            <div class="product-title"><br><b>League of Legends Wildrift</b></div>
-                        </a></li>
+            <div class="container">
+                <div class="grid-container">
+                    <ul>
+                        <li><a href="TOFpayment1.php" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
+                                <div class="product-title"><br><b>Tower of Fantasy</b></div>
+                            </a></li>
+                        <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
+                                <div class="product-title"><br><b>Genshin Impact</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/honkaiimpact3_logo.jpg">
+                                <div class="product-title"><br><b>Honkai Impact 3</b></div>
+                            </a></li>
+                        <li><a href="valorant.html" class="col-4 col-md-2 text-center"><img src="img/valorant_logo.jpg">
+                                <div class="product-title"><br><b>valorant</b></div>
+                            </a></li>
+                        <li><a href="PUBG.html" class="col-4 col-md-2 text-center"><img src="img/PUBG_logo.png">
+                                <div class="product-title"><br><b>PUBG MOBILE</b></div>
+                            </a></li>
+                        <li><a href="rov.html" class="col-4 col-md-2 text-center"><img src="img/rov_logo.png">
+                                <div class="product-title"><br><b>ROV</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/diablo_logo.jpg">
+                                <div class="product-title"><br><b>Diablo Immortal</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/raknarok_tac2_logo.png">
+                                <div class="product-title"><br><b>Ragnarok Tactics 2</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/dragonraja_logo.png">
+                                <div class="product-title"><br><b>Dragon Raja</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/freefire_logo.png">
+                                <div class="product-title"><br><b>Free Fire</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/ApexLegendMobile_logo.jpg">
+                                <div class="product-title"><br><b>Apex Legend Mobile</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lol_logo.png">
+                                <div class="product-title"><br><b>League of Legends</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lor_logo.jpg">
+                                <div class="product-title"><br><b>League of Runeterra</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/onmyojiarena_logo.jpg">
+                                <div class="product-title"><br><b>Onmyoji Arena</b></div>
+                            </a></li>
+                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lolwildrift_logo.png">
+                                <div class="product-title"><br><b>League of Legends Wildrift</b></div>
+                            </a></li>
+                    </ul>
 
 
+                    <div class="load-more">
+                    <button type="button" class="btn btn-warning">SEE MORE</button>
+                    </div>
+                    <script>
+                        let loadMoreBtn = document.querySelector('.load-more');
+                        let currentItem = 10;
 
-                </ul>
-                <div class="load-more">
-                    <button>SEE MORE</button>
+                        loadMoreBtn.onclick = () => {
+                            let boxes = [...document.querySelectorAll('.grid-container ul li')];
+                            for (var i = currentItem; i < currentItem + 30; i++) {
+                                boxes[i].style.display = 'inline-block';
+                            }
+                            currentItem += 10;
+
+                            if (currentItem >= boxes.length) {
+                                loadMoreBtn.style.display = 'none';
+                            }
+                        }
+                    </script>
+
                 </div>
-                <script>
-                    let loadMoreBtn = document.querySelector('.load-more');
-                    let currentItem = 10;
-
-                    loadMoreBtn.onclick = () => {
-                        let boxes = [...document.querySelectorAll('.grid-container ul li')];
-                        for (var i = currentItem; i < currentItem + 30; i++) {
-                            boxes[i].style.display = 'inline-block';
-                        }
-                        currentItem += 10;
-
-                        if (currentItem >= boxes.length) {
-                            loadMoreBtn.style.display = 'none';
-                        }
-                    }
-                </script>
-
             </div>
-
         </div>
 
-        <!-- <div class="load-more">
-            <button>SEE MORE</button>
-        </div>
-        <script>
 
-            let loadMoreBtn = document.querySelector('.load-more');
-            let currentItem = 10;
-
-            loadMoreBtn.onclick = () => {
-                let boxes = [...document.querySelectorAll('.grid-container ul li')];
-                for (var i = currentItem; i < currentItem + 7; i++) {
-                    boxes[i].style.display = 'inline-block';
-                }
-                currentItem += 10;
-
-                if (currentItem >= boxes.length) {
-                    loadMoreBtn.style.display = 'none';
-                }
-            }
-
-        </script> -->
 
     </section>
 
-    <section class="grid-card">
-        <div class="card">
+    <section class="grid-game">
+        <div class="game"style="background-color:#222">
             <h1>เติมเงินอื่นๆ</h1>
             <h5>OTHER TOPUP</h5><br>
-            <div class="card-container">
-                <ul>
-                    <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/garena_card.png">
-                            <div class="product-title"><br><b>บัตร Garena</b></div>
-                        </a></li>
-                    <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/razer_card.png">
-                            <div class="product-title"><br><b>บัตร Razer Gold</b></div>
-                        </a></li>
-                    <li><a href="valorant.html" class="col-4 col-md-2 text-center"><img src="img/steam_card.png">
-                            <div class="product-title"><br><b>บัตร Steam Wallet</b></div>
-                        </a></li>
-                    <li><a href="PUBG.html" class="col-4 col-md-2 text-center"><img src="img/true_card.png">
-                            <div class="product-title"><br><b>บัตรเติมเงิน True Money</b></div>
-                        </a></li>
-                    <li><a href="rov.html" class="col-4 col-md-2 text-center"><img src="img/battle_card.png">
-                            <div class="product-title"><br><b>บัตรเติมเงิน BATTLENET</b></div>
-                        </a></li>
-                </ul>
+            <div class="container">
+                <div class="grid-container">
+                    <ul>
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/garena_card.png">
+                                <div class="product-title"><br><b>บัตร Garena</b></div>
+                            </a></li>
+                        <li><a href="Genshintopup.html" class="text-center"><img src="img/razer_card.png">
+                                <div class="product-title"><br><b>บัตร Razer Gold</b></div>
+                            </a></li>
+                        <li><a href="valorant.html" class="text-center"><img src="img/steam_card.png">
+                                <div class="product-title"><br><b>บัตร Steam Wallet</b></div>
+                            </a></li>
+                        <li><a href="PUBG.html" class="text-center"><img src="img/true_card.png">
+                                <div class="product-title"><br><b>บัตรเติมเงิน True Money</b></div>
+                            </a></li>
+                        <li><a href="rov.html" class="text-center"><img src="img/battle_card.png">
+                                <div class="product-title"><br><b>บัตรเติมเงิน BATTLENET</b></div>
+                            </a></li>
+                    </ul>
 
 
+                </div>
             </div>
 
         </div>
 
 
     </section>
-
 
 
     <section class="Footer">
@@ -229,7 +210,8 @@ if (isset($_GET['logout'])) {
         </div>
     </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

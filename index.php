@@ -17,8 +17,9 @@
 <body>
     <nav class="navbar navbar-expand-lg" style="background-color: #050224;">
         <div class="container-fluid">
-            <a class="navba" href="index.php">
-                <h1>เติมเกลือ<h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
+            <a class="navbar-brand text-white text-center px-3" href="index.php">
+                <h1>เติมเกลือ<br>
+                    <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
                 </h1>
             </a>
             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,8 +28,8 @@
             <div class="row">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active text-white" style="font-size:2rem" aria-current="page" href="index.php">หน้าหลัก</a>
-                        <a class="nav-link active text-white" style="font-size:2rem" href="login.php">เข้าสู่ระบบ</a>
+                        <a class="nav-link active text-white bi bi-house-door-fill " style="font-size:2rem " aria-current="page" href="index.php">หน้าหลัก</a>
+                        <a class="nav-link active text-white" style="font-size:2rem" href="index_user.php">เข้าสู่ระบบ</a>
                         <a class="nav-link active text-white" style="font-size:2rem" href="register.php">สมัครสมาชิก</a>
                     </div>
                 </div>
@@ -127,8 +128,9 @@
 
 
                     <div class="load-more">
-                        <button>SEE MORE</button>
+                        <button type="button" class="btn btn-warning">SEE MORE</button>
                     </div>
+
                     <script>
                         let loadMoreBtn = document.querySelector('.load-more');
                         let currentItem = 10;
@@ -154,8 +156,8 @@
 
     </section>
 
-    <section class="grid-card">
-        <div class="card">
+    <section class="grid-game">
+        <div class="game"style="background-color:#222">
             <h1>เติมเงินอื่นๆ</h1>
             <h5>OTHER TOPUP</h5><br>
             <div class="container">
@@ -187,12 +189,11 @@
 
     </section>
 
-
     <section class="Footer">
-        <div class="footer">
             <h1>Footer</h1>
-        </div>
     </section>
+                        
+   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
