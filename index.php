@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active text-white bi bi-house-door-fill " style="font-size:2rem " aria-current="page" href="index.php">หน้าหลัก</a>
+                        <a class="nav-link active text-white  " style="font-size:2rem " aria-current="page" href="index.php">หน้าหลัก</a>
                         <a class="nav-link active text-white" style="font-size:2rem" href="index_user.php">เข้าสู่ระบบ</a>
                         <a class="nav-link active text-white" style="font-size:2rem" href="register.php">สมัครสมาชิก</a>
                     </div>
