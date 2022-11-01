@@ -1,32 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
+
 }
 
-.bg-blur{
-    backdrop-filter: blur(3px);
+.bg-blur {
+    backdrop-filter: blur(2px);
     background-color: rgba(235, 242, 244, 0.657);
+
 }
-.bg-darkblue{
-    background-color:#0a054ada;
+
+.bg-darkblue {
+    background-color: #0a054ada;
+    background-image: url(img/background-gradient.jpg);
 }
 
 .intros {
     height: 107.8vh;
     /* background-image:linear-gradient(to right ,#2c3e50, #4ca1af)!important; */
-    background: linear-gradient(
-              -25deg,#0f0c29,#302b63,#24243e
-            );
+    background: linear-gradient(-25deg, #0f0c29, #302b63, #24243e);
 }
 
 @media (min-width: 992px) {
     .intros {
-      margin-top: -58.59px;
+        margin-top: -58.59px;
     }
-}  
+}
 
 
+/* .grid-container tr  {
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    list-style: none;
+}
 
+@media screen and (max-width:960px) {
+    .grid-container tr  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+/* .bg-dark {
+    background-image: linear-gradient(to right bottom, #000000, #29141f, #46213f, #5d3369, #664b9c, #6052af, #525ac3, #3763d7, #3056cb, #2a4abf, #243db2, #1e30a6)!important;
+} */
+
+.bi-facebook{
+    color:white
+}

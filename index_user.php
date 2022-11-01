@@ -1,19 +1,3 @@
-<?php
-session_start();
-
-if (!isset($_SESSION['username'])) {
-    $_SESSION['msg'] = "You must log in first";
-    header('location: login.php');
-}
-
-if (isset($_GET['logout'])) {
-    session_destroy();
-    unset($_SESSION['username']);
-    header('location: login.php');
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,7 +16,7 @@ if (isset($_GET['logout'])) {
 <body>
     <nav class="navbar navbar-expand-lg" style="background-color: #050224;">
         <div class="container-fluid">
-            <a class="navbar-brand text-white text-center px-3" href="index.php">
+            <a class="navbar-brand text-white text-center px-3" href="index_user.php">
                 <h1>เติมเกลือ<br>
                     <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
                 </h1>
@@ -44,10 +28,10 @@ if (isset($_GET['logout'])) {
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active text-white"style="font-size:2rem" aria-current="page" href="index_user.php">หน้าหลัก</a>
-                    <a><?php if (isset($_SESSION['username'])) : ?></a>
-                        <a class="nav-link active text-white" style="font-size:2rem;">คุณ <?php echo $_SESSION['username']; ?></a>
+                
+                        <a class="nav-link active text-white" style="font-size:2rem;">คุณ... </a>
                         <a class="nav-link active " href="index.php?logout='1'" style="color: red;font-size:2rem;">Logout</a>
-                    <?php endif ?>                   
+                
                 </div>
             </div>
             </div>
@@ -205,9 +189,7 @@ if (isset($_GET['logout'])) {
 
 
     <section class="Footer">
-        <div class="footer">
-            <h1>Footer</h1>
-        </div>
+    <a href="https://www.facebook.com/TERMKLUEA/" class="bi bi-facebook text-white"style="font-size:3rem; text-decoration: none;">TERM_KLUEA</a>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

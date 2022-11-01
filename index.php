@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active text-white  " style="font-size:2rem " aria-current="page" href="index.php">หน้าหลัก</a>
+                        <a class="nav-link active text-white" style="font-size:2rem " aria-current="page" href="index.php">หน้าหลัก</a>
                         <a class="nav-link active text-white" style="font-size:2rem" href="index_user.php">เข้าสู่ระบบ</a>
                         <a class="nav-link active text-white" style="font-size:2rem" href="register.php">สมัครสมาชิก</a>
                     </div>
@@ -190,7 +190,7 @@
     </section>
 
     <section class="Footer">
-            <h1>Footer</h1>
+    <a href="https://www.facebook.com/TERMKLUEA/" class="bi bi-facebook text-white"style="font-size:3rem; text-decoration: none;">TERM_KLUEA</a>
     </section>
                         
    

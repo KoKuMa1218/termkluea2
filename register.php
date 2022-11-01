@@ -1,8 +1,3 @@
-<?php
-session_start();
-include('server.php');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,6 +10,13 @@ include('server.php');
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fix.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 </head>
 
 <body class="intros">
@@ -25,18 +27,6 @@ include('server.php');
             </div>
 
             <form action="register_db.php" method="post">
-                <?php include('errors.php'); ?>
-                <?php if (isset($_SESSION['error'])) : ?>
-                    <div class="error">
-                        <h3>
-                            <?php
-                            echo $_SESSION['error'];
-                            unset($_SESSION['error']);
-                            ?>
-                        </h3>
-                    </div>
-                <?php endif ?>
-
                 <div><i class="bi bi-person-circle row justify-content-center mt-5 mb-4 text-white"style="font-size:5rem;"></i>
                     </div>
 
@@ -58,12 +48,19 @@ include('server.php');
                 </div>
                 <button type="submit mb-3" style="width: 28rem" class="btn btn-primary" name="reg_user">Sign in</button>
                 <p class="text-center mt-2">สมัครสมาชิกเรียบร้อยแล้ว <a href="login.php">เข้าสู่ระบบ</a></p>
-
-
             </form>
-        </div>
+        </div>  
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+        <script>
+        document.querySelector(".").addEventListener('click', function () {
+            Swal.fire(
+                'Good job!',
+                'You clicked the button!',
+                'success'
+            )
+        });
+    </script>
 </body>
 
 </html>
