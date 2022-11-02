@@ -19,6 +19,7 @@
 
 
 
+
 /* Banner */
 .intro {
     height: 85vh;
@@ -27,7 +28,7 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 0.1rem;
-
+    
 }
 
 .intro-slideshow img {
@@ -208,9 +209,8 @@ button {
 }
 
 button:hover {
-    background-color: #0d6efd;
     color: #fff;
-    box-shadow: 3px 3px 10px #0d6efd;
+    box-shadow: 3px 3px 10px red;
 }
 
 .grid-container ul li:nth-child(1),
@@ -238,4 +238,23 @@ button:hover {
 
 .bi{
 fill: currentcolor;
+}
+.bg-transparent  {
+    background-color: rgba(0, 0, 0 , 0.6)!important;
+    backdrop-filter: blur(8px)!important;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15)!important;
+}
+.navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: 0;
+    background-color: #fff;
+    width: 0;
+    height: 4px;
+}
+
+.navbar-nav a:hover:after{
+    width: 100%;
 }

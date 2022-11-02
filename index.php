@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/main.css">
     <style>
         @media screen and (max-width:900px) {
-            .intro{
+            .intro {
                 height: 60vh;
             }
         }
@@ -35,14 +35,16 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+
+       
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #050224;">
+    <nav class="navbar sticky-top navbar-expand-lg "style="background-color: #050224;">
         <div class="container-fluid">
             <a class="navbar-brand text-white text-center px-3" href="index.php">
-                <h1>เติมเกลือ<br>
+                <h1><img src="img/salt.png" alt="" width="60">เติมเกลือ
                     <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
                 </h1>
             </a>
@@ -67,9 +69,11 @@
             <img src="img/genshin-banner.jpg" alt="1">
             <img src="img/tof-banner.jpg" alt="2">
             <img src="img/valorant_banner.jpg" alt="3">
-
         </div>
     </div>
+
+
+  
 
     <script>
         const slideshowImages = document.querySelectorAll(".intro .intro-slideshow img");
@@ -96,8 +100,8 @@
 
     <section class="grid-game">
         <div class="game">
-            <h1>เติมเกมออนไลน์</h1>
-            <h5>GAMEONLINE TOPUP</h5><br>
+            <h1 class="bi bi-dpad-fill"> เติมเกมออนไลน์</h1>
+            <h5> GAMEONLINE TOPUP </h5><br>
             <div class="container">
                 <div class="grid-container">
                     <ul>
@@ -180,8 +184,8 @@
 
     <section class="grid-game">
         <div class="game" style="background-color:#222">
-            <h1>เติมเงินอื่นๆ</h1>
-            <h5>OTHER TOPUP</h5><br>
+            <h1 class="bi bi-wallet-fill px-2"> เติมเงินอื่นๆ</h1>
+            <h5> OTHER TOPUP </h5><br>
             <div class="container">
                 <div class="grid-container">
                     <ul>
@@ -219,6 +223,18 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-transparent', 'shadow');
+        } else {
+          nav.classList.remove('bg-transparent', 'shadow');
+        }
+      });
+    </script>
 </body>
 
 </html>
