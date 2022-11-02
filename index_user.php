@@ -11,6 +11,31 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/main.css">
+    <style>
+        @media screen and (max-width:900px) {
+            .intro{
+                height: 60vh;
+            }
+        }
+
+        @media screen and (max-width:1200px) {
+            .grid-container ul {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media screen and (max-width:980px) {
+            .grid-container ul {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media only screen and (max-width:760px) {
+            .grid-container ul {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -28,10 +53,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active text-white"style="font-size:2rem" aria-current="page" href="index_user.php">หน้าหลัก</a>
-                
                         <a class="nav-link active text-white" style="font-size:2rem;">คุณ... </a>
                         <a class="nav-link active " href="index.php?logout='1'" style="color: red;font-size:2rem;">Logout</a>
-                
                 </div>
             </div>
             </div>

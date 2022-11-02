@@ -46,9 +46,9 @@
                     title: "Thank You",
                     text: "ขอบคุณที่ใช้บริการเติมเกลือของเรา",
                     type: "success"
-                }, function() {
-                    <?php header("refresh:5;url=index_user.php");  ?>
-                });
+    }).then(function () {
+      window.location = "index_user.php";
+    });
             }, );
  });
     </script>

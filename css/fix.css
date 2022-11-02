@@ -14,7 +14,7 @@
 
 .bg-darkblue {
     background-color: #0a054ada;
-    background-image: url(img/background-gradient.jpg);
+    background-image: url("../img/background-gradient.jpg");
 }
 
 .intros {
@@ -29,25 +29,31 @@
     }
 }
 
-
-/* .grid-container tr  {
-    margin-bottom: 3rem;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-    list-style: none;
-}
-
-@media screen and (max-width:960px) {
-    .grid-container tr  {
-        grid-template-columns: repeat(2, 1fr);
-    }
-} */
-
-/* .bg-dark {
-    background-image: linear-gradient(to right bottom, #000000, #29141f, #46213f, #5d3369, #664b9c, #6052af, #525ac3, #3763d7, #3056cb, #2a4abf, #243db2, #1e30a6)!important;
-} */
-
 .bi-facebook{
     color:white
+}
+
+.form{
+    padding: 30px 40px;
+}
+h2{
+    text-align: center;
+    margin:0 0 0 20px;
+}
+
+.form-floating.error input{
+    border-color:red;
+}
+.form-floating.success input{
+    border-color:green;
+}
+.form-floating small{
+    color:red;
+    /* position: absolute; */
+    bottom:0;
+    left:0;
+    visibility: hidden;
+}
+.form-floating.error small{
+    visibility: visible;
 }

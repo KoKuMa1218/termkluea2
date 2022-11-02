@@ -17,63 +17,7 @@
 }
 
 
-/* nav {
 
-    height: 100px;
-    display: flex;
-    align-items: center;
-    background-color: #050224;
-
-} */
-
-/* nav a {
-    text-decoration: none;
-}
-
-nav b {
-    margin-left: 20px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    width: 520px;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: 40px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-    
-
-
-}
-.bi {
-    font-size: 30px;
-    
-} */
-
-
-/* ul li i {
-    margin: 10px;
-}
-
-
-.logo h1 {
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    align-items: center;
-}
-
-.logo h4 {
-    color: #fff;
-    font-size: 20px;
-
-} */
 
 /* Banner */
 .intro {
@@ -219,11 +163,22 @@ ul li img:hover {
     list-style: none;
 }
 
-@media screen and (max-width:960px) {
+/* @media screen and (max-width:1200px) {
+    .grid-container ul  {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width:980px) {
     .grid-container ul  {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media only screen and (max-width:760px) {
+    .grid-container ul  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
 
 
 .grid-container ul li {
@@ -270,49 +225,6 @@ button:hover {
 .grid-container ul li:nth-child(10) {
     display: inline-block;
 }
-
-/* grid-card */
-
-/* .card {
-    
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #222;
-}
-
-.card h1 {
-    margin-left: 40px;
-    color: #fff;
-}
-
-.card h5 {
-    margin-left: 40px;
-    color: #fff;
-}
-
-.col-md-2 {
-    flex: 0 0 auto;
-}
-
-.col4 {
-    flex: 0 0 auto;
-    width: 3.333333333%;
-}
-
-
-ul li img {
-
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
-    display: block;
-
-
-} */
-
-
-
-
 
 /* footer */
 .Footer {

@@ -20,11 +20,11 @@ include('server.php');
 </head>
 
 
-<body class="intros">   
+<body class="intros"style="background-color: #0a054ada;">   
     <div class="position-absolute top-50 start-50 translate-middle">        
         <div class="container border border-4 border-primary rounded-4 bg-blur">
-            <div class="header text-center position-absolute top-0 start-50 translate-middle border border-4 border-primary bg-darkblue text-white rounded-4" style="width:10rem;">
-                <h2>Login</h2>
+            <div class="header text-center position-absolute top-0 start-50 translate-middle border border-4 border-primary bg-darkblue text-white rounded-4" style="width: 10rem;font-size:2rem">
+                Login
             </div>
             <form action="login_db.php" method="post">
                 <?php if (isset($_SESSION['error'])) : ?>

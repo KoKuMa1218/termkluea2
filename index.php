@@ -10,8 +10,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <!-- CSS only -->
     <link rel="stylesheet" href="css/main.css">
+    <style>
+        @media screen and (max-width:900px) {
+            .intro{
+                height: 60vh;
+            }
+        }
+
+        @media screen and (max-width:1200px) {
+            .grid-container ul {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media screen and (max-width:980px) {
+            .grid-container ul {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media only screen and (max-width:760px) {
+            .grid-container ul {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -37,15 +61,13 @@
         </div>
     </nav>
 
-
-    <!-- </header> -->
-
     <!-- Banner -->
     <div class="intro">
         <div class="intro-slideshow">
             <img src="img/genshin-banner.jpg" alt="1">
             <img src="img/tof-banner.jpg" alt="2">
             <img src="img/valorant_banner.jpg" alt="3">
+
         </div>
     </div>
 
@@ -79,49 +101,49 @@
             <div class="container">
                 <div class="grid-container">
                     <ul>
-                        <li><a href="TOFpayment1.php" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
+                        <li><a href="TOFpayment1.php" class="text-center"><img src="img/TOF_logo.jpg">
                                 <div class="product-title"><br><b>Tower of Fantasy</b></div>
                             </a></li>
-                        <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
+                        <li><a href="Genshintopup.html" class="text-center"><img src="img/Genshin-logo.png">
                                 <div class="product-title"><br><b>Genshin Impact</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/honkaiimpact3_logo.jpg">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/honkaiimpact3_logo.jpg">
                                 <div class="product-title"><br><b>Honkai Impact 3</b></div>
                             </a></li>
-                        <li><a href="valorant.html" class="col-4 col-md-2 text-center"><img src="img/valorant_logo.jpg">
+                        <li><a href="valorant.html" class="text-center"><img src="img/valorant_logo.jpg">
                                 <div class="product-title"><br><b>valorant</b></div>
                             </a></li>
-                        <li><a href="PUBG.html" class="col-4 col-md-2 text-center"><img src="img/PUBG_logo.png">
+                        <li><a href="PUBG.html" class="text-center"><img src="img/PUBG_logo.png">
                                 <div class="product-title"><br><b>PUBG MOBILE</b></div>
                             </a></li>
-                        <li><a href="rov.html" class="col-4 col-md-2 text-center"><img src="img/rov_logo.png">
+                        <li><a href="rov.html" class="text-center"><img src="img/rov_logo.png">
                                 <div class="product-title"><br><b>ROV</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/diablo_logo.jpg">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/diablo_logo.jpg">
                                 <div class="product-title"><br><b>Diablo Immortal</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/raknarok_tac2_logo.png">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/raknarok_tac2_logo.png">
                                 <div class="product-title"><br><b>Ragnarok Tactics 2</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/dragonraja_logo.png">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/dragonraja_logo.png">
                                 <div class="product-title"><br><b>Dragon Raja</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/freefire_logo.png">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/freefire_logo.png">
                                 <div class="product-title"><br><b>Free Fire</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/ApexLegendMobile_logo.jpg">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/ApexLegendMobile_logo.jpg">
                                 <div class="product-title"><br><b>Apex Legend Mobile</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lol_logo.png">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/lol_logo.png">
                                 <div class="product-title"><br><b>League of Legends</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lor_logo.jpg">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/lor_logo.jpg">
                                 <div class="product-title"><br><b>League of Runeterra</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/onmyojiarena_logo.jpg">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/onmyojiarena_logo.jpg">
                                 <div class="product-title"><br><b>Onmyoji Arena</b></div>
                             </a></li>
-                        <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/lolwildrift_logo.png">
+                        <li><a href="TOFtopup.html" class="text-center"><img src="img/lolwildrift_logo.png">
                                 <div class="product-title"><br><b>League of Legends Wildrift</b></div>
                             </a></li>
                     </ul>
@@ -157,7 +179,7 @@
     </section>
 
     <section class="grid-game">
-        <div class="game"style="background-color:#222">
+        <div class="game" style="background-color:#222">
             <h1>เติมเงินอื่นๆ</h1>
             <h5>OTHER TOPUP</h5><br>
             <div class="container">
@@ -190,10 +212,10 @@
     </section>
 
     <section class="Footer">
-    <a href="https://www.facebook.com/TERMKLUEA/" class="bi bi-facebook text-white"style="font-size:3rem; text-decoration: none;">TERM_KLUEA</a>
+        <a href="https://www.facebook.com/TERMKLUEA/" class="bi bi-facebook text-white" style="font-size:3rem; text-decoration: none;">TERM_KLUEA</a>
     </section>
-                        
-   
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
