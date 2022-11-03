@@ -18,7 +18,7 @@
 <body class="bg-dark bg-gradient">
     <nav class="navbar sticky-top navbar-expand-lg " style="background-color: #050224;">
         <div class="container-fluid">
-            <a class="navbar-brand text-white text-center px-3" href="index_user.php">
+            <a class="navbar-brand text-white text-center px-3" href="index.php">
                 <h1><img src="img/salt.png" alt="" width="60">เติมเกลือ
                     <h4>เพราะชีวิตขาดเค็มไม่ได้</h4>
                 </h1>
@@ -40,11 +40,11 @@
 
     <div class="intro">
         <div class="intro-slideshow">
-            <img src="https://www.pockettactics.com/wp-content/sites/pockettactics/2022/09/tower-of-fantasy-wallpaper-astra.jpg" alt="1">
-            <img src="img/tof-banner.jpg" alt="">
+            <img src="https://images.alphacoders.com/127/1273175.jpg" alt="1">
+            <img src="img/genshin-banner.jpg" alt="">
             <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle border boder-3 rounded-4 " style="background-color: rgba(0, 0, 0 , 0.6)">
-                <h1 class="fs-1 fw-bolder text-sm-center">Tower of Fantasy</h1>
-                <p class="fs-5 fw-bolder text-sm-center">Tower of Fantasy เป็นเกมแนว Sci-fi ผจญภัยผสมผสานอนิเมะ ซึ่งมีฉากดำเนินเรื่องอยู่ที่ดาวเคราะห์ไอดาอันไกลโพ้นในยุคอนาคตอีกหลายร้อยปีนับจากนี้ เกม Open World MMORPG ที่แบ่งปันความมันส์กับผู้เล่นมากมาย</p>
+                <h1 class="fs-1 fw-bolder text-sm-center">Genshin Impact</h1>
+                <p class="fs-5 fw-bolder text-sm-center">Genshin Impact" คือเกมผจญภัยแนว RPG แบบโอเพ่นเวิลด์ใหม่ ซึ่งผลิตโดยบริษัท miHoYo</p>
             </div>
         </div>
     </div>
@@ -72,51 +72,51 @@
     </script>
 
     <div>
-        <form action="TOFpayment2.php" method="get">
+        <form action="genshinpayment2.php" method="get">
             <div class="container mt-3 mb-3 border border-primary border-4 rounded-4 pt-3 bg-blur text-white" style="width:50%;">
                 <p>1 เลือกแพ็คเกจที่ต้องการเติม</p>
                 <div class="col mt-3 mb-3" align="center">
                     <div class="row gap-2">
                         <!-- <tr> -->
                         <div class="col">
-                            <input class="form-check-input" type="radio" id="r1" name="tanium" <?php if (isset($tanium) && $tanium == 30) echo "checked"; ?> value=30 required>
+                            <input class="form-check-input" type="radio" id="r1" name="tanium" <?php if (isset($tanium) && $tanium == 35) echo "checked"; ?> value=35 required>
                             <label for="r1">
-                                <td><img src="img/30ta.png" width="200" height="150"></a></td>
+                                <td><img src="img/primo60.png" width="200" height="150"></a></td>
                             </label>
                         </div>
 
                         <div class="col">
-                            <input class="form-check-input" type="radio" id="r2" name="tanium" <?php if (isset($tanium) && $tanium == 150) echo "checked"; ?> value=150>
+                            <input class="form-check-input" type="radio" id="r2" name="tanium" <?php if (isset($tanium) && $tanium == 179) echo "checked"; ?> value=179>
                             <label for="r2">
-                                <td><img src="img/150ta.png" width="200" height="150"></a></td>
+                                <td><img src="img/primo300.png" width="200" height="150"></a></td>
                             </label>
                         </div>
 
                         <div class="col">
-                            <input class="form-check-input" type="radio" id="r3" name="tanium" <?php if (isset($tanium) && $tanium == 450) echo "checked"; ?> value=450>
+                            <input class="form-check-input" type="radio" id="r3" name="tanium" <?php if (isset($tanium) && $tanium == 549) echo "checked"; ?> value=549>
                             <label for="r3">
-                                <td><img src="img/450ta.png" width="200" height="150"></a></td>
+                                <td><img src="img/primo980.png" width="200" height="150"></a></td>
                             </label>
                         </div>
 
                         <div class="col">
-                            <input class="form-check-input" type="radio" id="r4" name="tanium" <?php if (isset($tanium) && $tanium == 900) echo "checked"; ?> value=900>
+                            <input class="form-check-input" type="radio" id="r4" name="tanium" <?php if (isset($tanium) && $tanium == 1100) echo "checked"; ?> value=1100>
                             <label for="r4">
-                                <td><img src="img/900ta.png" width="200" height="150"></a></td>
+                                <td><img src="img/primo1980.png" width="200" height="150"></a></td>
                             </label>
                         </div>
 
                         <div class="col">
-                            <input class="form-check-input" type="radio" id="r5" name="tanium" <?php if (isset($tanium) && $tanium == 1600) echo "checked"; ?> value=1600>
+                            <input class="form-check-input" type="radio" id="r5" name="tanium" <?php if (isset($tanium) && $tanium == 1800) echo "checked"; ?> value=1800>
                             <label for="r5">
-                                <td><img src="img/1600ta.png" width="200" height="150"></a></td>
+                                <td><img src="img/primo3280.png" width="200" height="150"></a></td>
                             </label>
                         </div>
 
                         <div class="col">
-                            <input class="form-check-input" type="radio" id="r6" name="tanium" <?php if (isset($tanium) && $tanium == 3000) echo "checked"; ?> value=3000>
+                            <input class="form-check-input" type="radio" id="r6" name="tanium" <?php if (isset($tanium) && $tanium == 3700) echo "checked"; ?> value=3700>
                             <label for="r6">
-                                <td><img src="img/3000ta.png" width="200" height="150"></a></td>
+                                <td><img src="img/primo6480.png" width="200" height="150"></a></td>
                             </label>
                         </div>
 
@@ -138,10 +138,10 @@
                         <div class="col-md">
                             <div class="form-floating">
                                 <select class="form-select" id="servern" name="servern">
-                                    <option value="scarlet">scarlet</option>
-                                    <option value="odyssey">odyssey</option>
-                                    <option value="gumigumi">gumigumi</option>
-                                    <option value="phantasia">phantasia</option>
+                                    <option value="America">America</option>
+                                    <option value="Europe">Europe</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="TW,HK,MO">TW,HK,MO</option>
                                 </select>
                                 <label for="floatingSelectGrid">Select Server</label>
                             </div>

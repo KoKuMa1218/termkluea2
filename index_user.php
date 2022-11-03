@@ -104,7 +104,7 @@
                         <li><a href="TOFpayment1.php" class="col-4 col-md-2 text-center"><img src="img/TOF_logo.jpg">
                                 <div class="product-title"><br><b>Tower of Fantasy</b></div>
                             </a></li>
-                        <li><a href="Genshintopup.html" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
+                        <li><a href="genshinpayment1.php" class="col-4 col-md-2 text-center"><img src="img/Genshin-logo.png">
                                 <div class="product-title"><br><b>Genshin Impact</b></div>
                             </a></li>
                         <li><a href="TOFtopup.html" class="col-4 col-md-2 text-center"><img src="img/honkaiimpact3_logo.jpg">
